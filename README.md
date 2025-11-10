@@ -19,5 +19,5 @@
 </h3>
 
 <p align="center">
-  <b>Code release coming soon (approx. mid Nov).</b>
+  <b>Code release coming soon (around mid Nov).</b>
 </p>
