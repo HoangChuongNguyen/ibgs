@@ -19,7 +19,7 @@
 </h3>
 
 <p align="center">
-  <img src="assets/results.png" alt="IBGS results" width="100%">
+  <img src="assets/results.png" alt="IBGS results" width="75%">
 </p>
 
 ## Installation
