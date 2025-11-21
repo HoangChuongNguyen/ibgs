@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-We use the standard benchmark datasets, which can be downloaded following <a href="https://github.com/graphdeco-inria/gaussian-splatting">3DGS</a>. For the Shiny dataset, it can be downloaded <a href="https://nex-mpi.github.io/">here</a>, followed by running COLMAP to obtain the camera poses. 
+We use the standard benchmark datasets, which can be downloaded following <a href="https://github.com/graphdeco-inria/gaussian-splatting">3DGS</a>. For the Shiny dataset, we download the original data from <a href="https://nex-mpi.github.io/">this like</a>, followed by running COLMAP to obtain the camera poses. The processed Shiny dataset used in our experiments can be downloaded using <a href="https://drive.google.com/file/d/1ZbVkpzbqJMjYyHeXi2WOL0BAdfKzP1av/view?usp=sharing">this link</a>. 
 
 ## Training and Evaluation
 ```shell
