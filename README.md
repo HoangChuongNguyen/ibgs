@@ -41,7 +41,7 @@ We use the standard benchmark datasets, which can be downloaded following <a hre
 ```shell
 
 # Reproduce the results of the pretrained models
-python exp.py
+python exp_script.py
 
 # Training without exposure correction
 python train -s <path to data> -m output/<scene_name> --eval 
