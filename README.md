@@ -14,8 +14,7 @@
 <h3 align="center">
   <a href="https://openreview.net/pdf?id=AZLj6ObEDF">Paper</a> |
   <a href="https://hoangchuongnguyen.github.io/ibgs">Project Page</a> |
-  <a href="">Data </a> |
-  <a href="">Pretrained Models </a>
+  <a href="https://drive.google.com/file/d/1zFshzLTFaka8Kem6K4gA5Uu_FX5Hz6vC/view?usp=sharing">Pretrained Models </a>
 </h3>
 
 <p align="center">
@@ -38,7 +37,12 @@ pip install -r requirements.txt
 We use the standard benchmark datasets, which can be downloaded following <a href="https://github.com/graphdeco-inria/gaussian-splatting">3DGS</a>. For the Shiny dataset, we download the original data from <a href="https://nex-mpi.github.io/">Nex</a>, followed by running COLMAP to obtain the camera poses. The processed Shiny dataset used in our experiments can be downloaded using <a href="https://drive.google.com/file/d/1ZbVkpzbqJMjYyHeXi2WOL0BAdfKzP1av/view?usp=sharing">this link</a>. 
 
 ## Training and Evaluation
+
 ```shell
+
+# Reproduce the results of the pretrained models
+python exp.py
+
 # Training without exposure correction
 python train -s <path to data> -m output/<scene_name> --eval 
 # Ex: python train.py -s dataset/mipnerf_360/flower -m output/flower -r 4 --eval
@@ -52,12 +56,9 @@ python render.py -s <path to data> -m output/<scene_name> # Optionally add --ena
 python metrics.py -m output/<scene_name> 
 ```
 
-Note that for the Deep Blending and Shiny datasets, we use a larger search range for finding neighboring source views by adding the following arguments.
-```shell
- --multi_view_max_angle 50 --multi_view_max_dis 4.5 
-```
-
 ## Citation
+Please consider citing our work if you find it interesting. 
+
 ```
 @inproceedings{
   nguyen2025ibgs,
