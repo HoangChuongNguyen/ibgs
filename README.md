@@ -60,13 +60,13 @@ python metrics.py -m output/<scene_name>
 Please consider citing our work if you find it interesting. 
 
 ```
-@inproceedings{
-  nguyen2025ibgs,
-  title={{IBGS}: Image-Based Gaussian Splatting},
-  author={Hoang Chuong Nguyen and Wei Mao and Jose M. Alvarez and Miaomiao Liu},
-  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
-  year={2025},
-  url={https://openreview.net/forum?id=AZLj6ObEDF}
+@article{nguyen2026ibgs,
+  title={IBGS: Image-Based Gaussian Splatting},
+  author={Nguyen, Hoang Chuong and Mao, Wei and Alvarez, Jose M and Liu, Miaomiao},
+  journal={Advances in Neural Information Processing Systems},
+  volume={38},
+  pages={134148--134165},
+  year={2026}
 }
 ```
 
